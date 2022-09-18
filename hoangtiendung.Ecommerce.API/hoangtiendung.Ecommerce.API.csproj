@@ -23,11 +23,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\hoangtiendung.Ecommerce.BLL\hoangtiendung.Ecommerce.BLL.csproj" />
+    <ProjectReference Include="..\hoangtiendung.Ecommerce.DAL\hoangtiendung.Ecommerce.DAL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\hoangtiendung.Ecommerce.DAL\hoangtiendung.Ecommerce.DAL.csproj" />
+    <Reference Include="hoangtiendung.Core.Service">
+      <HintPath>..\hoangtiendung.Ecommerce.BLL\bin\Debug\net6.0\hoangtiendung.Core.Service.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
