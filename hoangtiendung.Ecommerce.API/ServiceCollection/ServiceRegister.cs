@@ -15,6 +15,7 @@ namespace hoangtiendung.Ecommerce.API.ServiceCollection
             serviceDescriptors.AddSwaggerGen();
 
             serviceDescriptors.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DbConnection")));
+
         }
     }
 }
