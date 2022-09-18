@@ -8,15 +8,11 @@ namespace hoangtiendung.Ecommerce.DAL.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
-        DbSet<Category> Categories;
-        DbSet<Promotion> Promotion;
-        DbSet<Product> Products;
-        DbSet<OrderDetail> OrderDetails;
-        DbSet<Order> Orders;
-        DbSet<Photo> Photos;
+        DbSet<Category> Categories { get; set; }
+        DbSet<Promotion> Promotion { get; set; }
+        DbSet<Product> Products { get; set; }
+        DbSet<OrderDetail> OrderDetails { get; set; }
+        DbSet<Order> Orders { get; set; }
+        DbSet<Photo> Photos { get; set; }
     }
 }
