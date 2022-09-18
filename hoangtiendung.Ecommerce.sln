@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hoangtiendung.Ecommerce.API", "hoangtiendung.Ecommerce.API\hoangtiendung.Ecommerce.API.csproj", "{6DFB6A34-2CC0-4A32-A682-2CCD48C1F155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hoangtiendung.Ecommerce.API", "hoangtiendung.Ecommerce.API\hoangtiendung.Ecommerce.API.csproj", "{6DFB6A34-2CC0-4A32-A682-2CCD48C1F155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hoangtiendung.Ecommerce.DAL", "hoangtiendung.Ecommerce.DAL\hoangtiendung.Ecommerce.DAL.csproj", "{DB6D980C-C5F9-4871-BEE7-D4FACEEC57F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hoangtiendung.Ecommerce.DAL", "hoangtiendung.Ecommerce.DAL\hoangtiendung.Ecommerce.DAL.csproj", "{DB6D980C-C5F9-4871-BEE7-D4FACEEC57F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hoangtiendung.Ecommerce.BLL", "hoangtiendung.Ecommerce.BLL\hoangtiendung.Ecommerce.BLL.csproj", "{306322A4-0632-433B-97F5-3109ACD2F8E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DB6D980C-C5F9-4871-BEE7-D4FACEEC57F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6D980C-C5F9-4871-BEE7-D4FACEEC57F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6D980C-C5F9-4871-BEE7-D4FACEEC57F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306322A4-0632-433B-97F5-3109ACD2F8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306322A4-0632-433B-97F5-3109ACD2F8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306322A4-0632-433B-97F5-3109ACD2F8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306322A4-0632-433B-97F5-3109ACD2F8E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
